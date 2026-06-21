@@ -197,7 +197,7 @@ main {
 /* Bone to pick section */
 .bone-section {
     width: 100%;
-    margin-top: 15em; /* Increased margin to push it further down */
+    margin-top: 7em; /* Reduced from 15em to shorten the distance */
     text-align: center;
     padding-bottom: 4em;
 }
