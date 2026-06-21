@@ -185,6 +185,15 @@ main {
     box-sizing: border-box; /* ensure padding doesn't affect size */
 }
 
+.puzzle-hint {
+    text-align: center;
+    color: #C154C1;
+    font-style: italic;
+    margin-top: 1.5em;
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
 /* Bone to pick section */
 .bone-section {
     width: 100%;
