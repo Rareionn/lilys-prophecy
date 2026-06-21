@@ -69,7 +69,7 @@ body {
 
 header {
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0; /* Reduced from 2em to make the header container smaller */
     background-color: #F4A2D4;
     color: white;
     border-bottom: 2px solid #4B0082;
@@ -188,7 +188,7 @@ main {
 /* Bone to pick section */
 .bone-section {
     width: 100%;
-    margin-top: 6em;
+    margin-top: 15em; /* Increased margin to push it further down */
     text-align: center;
     padding-bottom: 4em;
 }
@@ -220,22 +220,14 @@ main {
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     border: 2px solid #F4A2D4;
+    min-height: 200px; /* Moved from textarea to keep the box size */
+    text-align: left; /* Better for reading paragraphs */
 }
 
-#bone-textarea {
-    width: 100%;
-    min-height: 200px;
-    border: none;
-    resize: vertical;
+.bone-text {
     font-family: 'Garamond', serif;
     font-size: 1.2em;
     color: #4B0082;
-    background-color: transparent;
-    outline: none;
-    box-sizing: border-box;
-}
-
-#bone-textarea::placeholder {
-    color: #d1b3d1;
-    font-style: italic;
+    line-height: 1.6;
+    margin: 0;
 }
